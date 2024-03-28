@@ -22,8 +22,12 @@ public class ContaTerminal {
         System.out.println("Agência: " + agencia);
         System.out.println("Nome do Cliente: " + nomeCliente);
         System.out.printf("Saldo: R$%.2f", saldo);
-
         System.out.println();
+        System.out.println();
+        System.out.println("Olá caro cliente " + nomeCliente + "\nSeja benvindo ao nosso banco");
+        System.out.println();
+        //System.out.println();
+        System.out.println("Segue seus dados. \n" + "Agencia: " + agencia + " Conta: " + numero);
 
     }
 }
